@@ -58,5 +58,4 @@ public class CurrentBankAccount extends BankAccount {
 		return super.toString() + "\nDebit Limit : " + debitLimit + 
 				"\nAmount Borrowed : " + amountBorrowed;
  	}
-System.out.println("Helloworld");
 }
