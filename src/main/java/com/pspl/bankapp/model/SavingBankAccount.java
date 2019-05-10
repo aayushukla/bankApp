@@ -8,11 +8,13 @@ public class SavingBankAccount extends BankAccount {
 	
 	public SavingBankAccount() {
 		super();
+
 	}
 
 	public SavingBankAccount(String accHolderName, String accType, double balance) {
 		super(accHolderName, accType, balance);
-	}
+		System.out.println("hi");
+}
 
 	public void withdraw(double amount) throws Exception {
 		double temp = getBalance() - amount;
